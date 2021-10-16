@@ -64,7 +64,7 @@ function tweetQuote() {
 
 // Share on Facebook
 function FbShareQuote() {
-	const FbUrl = `https://www.facebook.com/sharer/sharer.php?u=https://aspicy.github.io/quote-generator?text=${quoteText.textContent} - ${authorText.textContent}`;
+	const FbUrl = `https://www.facebook.com/sharer/sharer.php?u=https://aspicy.github.io/quote-generator`;
 	window.open(FbUrl, '_blank');
 }
 
