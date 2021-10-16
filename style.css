@@ -105,13 +105,13 @@ button:active {
   100% { transform: rotate(360deg); }
 }
 
-/* Media Query:  Table or Smaller */
+/* Media Query:  Tablet or Smaller */
 @media screen and (max-width: 1000px) {
   .quote-container {
     margin: auto 10px;
   }
 
   .quote-text {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }
